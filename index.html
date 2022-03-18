@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .thumbnail{
+            width:100%;
+           
+        }
+        .search-box{
+            flex: 1;
+            height: 34px;
+        }
+      
+        .video-preview{
+          
+           
+        }
+        .channel-picture{
+           
+        }
+        .video-info{
+           
+        }
+        .profile-picture{
+            width: 100%;
+        }
+        .video-title{
+            margin-top: 0;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .thumbnail-row{
+            margin-bottom: 12px;
+        }
+        .video-author
+        {
+            font-size: 12px;
+            color: gray;
+            margin-bottom: 4px;
+        }
+        .video-stats{
+            font-size: 12px;
+            color: gray;
+        }
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }    
+        .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+        body{
+            margin: 0;
+        }
+        .header{
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           
+            
+        }
+        .left-section{
+           
+            width: 150px;
+            align-items: center;
+            display: flex;
+        }
+        .middle-section{
+            
+            flex: 1;
+            margin-right: 30px;
+            margin-left:70px ;
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+
+        }
+        .right-section{
+           
+            width: 200px;
+            display: flex;
+            align-items: center;
+        }
+        .youtube-logo{
+            height: 20px;
+           
+        }
+        .hamburger-menu{
+            height:24px;
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+        .search-button
+        {
+            height: 40px;
+            width: 60px;
+            background-color: white;
+            margin-right: 10px;
+        }
+        .voice-button{
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            background-color: white;
+        }
+        .search-icon{
+            height: 25px;
+            margin: 4px;
+            background-color: rgb(250, 250, 250);
+        }
+        .voice-icon{
+           background-color: rgb(255, 255, 255);
+        }
+        .upload-button{
+            height: 40px;
+            width: 40px;
+            border: none;
+            background-color: white;
+        }
+        .apps-button{
+            height: 40px;
+            width: 40px;
+            border: none;
+            background-color: white;
+        }
+        .notifications-button{
+            height: 40px;
+            width: 40px;
+            border: none;
+            background-color: white;
+        }
+        .channel-profile{
+            border-radius: 25px;
+            height: 40px;
+            background-color: white;
+        }
+        .syam{
+            border: none;
+            background-color: white;
+        }
+        .profile-picture{
+            border-radius: 28px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section"><img class="hamburger-menu" src="./images/hamburger-menu.svg" alt="">
+        <img class="youtube-logo"src="./images/youtube-logo.svg" alt=""></div>
+        <div class="middle-section">
+        <input class="search-box"type="text" placeholder="search">
+    <button class="search-button"><img class="search-icon" src="./images/search.svg" alt=""></button>
+<button class="voice-button"><img class="voice-icon" src="./images/voice-search-icon.svg" alt=""></button></div>
+        <div class="right-section">
+            <button class="upload-button"><img src="./images/upload.svg" alt=""></button>
+            <button class="apps-button"><img src="./images/youtube-apps.svg" alt=""></button>
+            <button class="notifications-button"><img src="./images/notifications.svg" alt=""></button>
+            <button class="syam"><img       class="channel-profile"src="images/channels4_profile.jpg" alt=""></button>
+        </div>  
+    </div>
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/unnamed (3).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Responsive Personal Portfolio Website Using HTML CSS And JavaScript | Dark/Light Mode</p>
+                    <p class="video-author">Bedimcode</p>
+                    <p class="video-stats">827,706 views11.May 2021</p>
+                </div>
+            </div> 
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720 (1).webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/unnamed (4).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Full Video Song|Sehari|HarshKanumilli|Sid Sriram|Prashanth R Vihari|Gnanasagar</p>
+                    <p class="video-author">Aditya Music</p>
+                    <p class="video-stats">418,283 views.28 Feb 2022</p>
+                </div>
+            </div> 
+        </div>   <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hqdefault.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/channels4_profile (3).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Radhe Shyam (Telugu) Audio Jukebox | Prabhas,Pooja Hegde | Justin Prabhakaran | Krishna Kanth </p>
+                    <p class="video-author">T-series Telugu</p>
+                    <p class="video-stats">835,058 views.12 Mar 2022</p>
+                </div>
+            </div> 
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720 (2).webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/unnamed (2).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Dakko Dakko Meka...Puli Vochi Korukuddi Pekaaa</p>
+                    <p class="video-author">Unq gamer</p>
+                    <p class="video-stats">119,747 views.22 Dec 2021</p>
+                </div>
+            </div> 
+        </div>   <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720 (3).webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/channels4_profile (2).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Etthara Jenda Video Song - RRR – NTR, Ram Charan, Alia, Ajay Devgn | Keeravaani | SS Rajamouli</p>
+                    <p class="video-author">Lahari Music | T-Series</p>
+                    <p class="video-stats">9,184,026 viewsPremiered on 14 Mar 2022</p>
+                </div>
+            </div> 
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720 (4).webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/unnamed (1).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">R15 Rider నన్ను మోసం చేసాడు😡| 34,000 బొక్క😭| Extreme Road rage with R15 Rider| New BBG Riding Gear</p>
+                    <p class="video-author">Vamsi Reddy Volgs</p>
+                    <p class="video-stats">37,652 views.18 Mar 2022</p>
+                </div>
+            </div> 
+        </div>   <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720 (5).webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/channels4_profile.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Breath of Amazon Rainforest - Wildlife Musical instruments, Relaxing Music | 4K Relaxation Film</p>
+                    <p class="video-author">Reflection Flim</p>
+                    <p class="video-stats">2,576,550 views.23 Jan 2022</p>
+                </div>
+            </div> 
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./images/hq720 (6).webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./images/channels4_profile (1).jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">FRUIT SALAD | Colourful Healthy Fruits mixed salad recipe | Fruits Cutting and Eating in Village</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">116,053,037 views.13 Mar 2020</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
